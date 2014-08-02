@@ -7,8 +7,9 @@ together =""
 word_stream=""
 swipded=0
 var audio = new Audio('35026333.mp3');
-audio.play();
+
 $("body").on("swipeleft",function(){
+    audio.play();
     if (swipded!=0){
         
     } else {
