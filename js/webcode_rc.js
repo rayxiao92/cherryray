@@ -42,6 +42,7 @@ $("body").on("swipeleft",function(){
         document.getElementById("word").innerHTML=""
         word_array = word_stream.split('.')
         wa_counter = 0
+        console.log(word_array)
         myInterval = setInterval(function(){
             wa_counter++
             if (wa_counter < word_array.length) {
